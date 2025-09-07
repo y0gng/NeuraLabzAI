@@ -1,6 +1,12 @@
 # NeuraLabzAI Utility
 
-Starter repo for NeuraLabzAI — FastAPI service + AI agent + crypto hooks + social posting skeleton.
+NeuraLabzAI Utility is a full starter framework combining AI, decentralized science (DeSci), and crypto functionality. Includes:
+- FastAPI web server for serving AI content
+- AI agent (local or OpenAI) for generating text
+- Crypto adapter for token and liquidity operations (placeholder for Solana/Raydium)
+- Worker system for async tasks and social posting (X/Twitter, Telegram)
+- Dockerized deployment and CI setup
+
 
 ## Quick start
 1. Copy `.env.example` to `.env` and add keys.
@@ -10,3 +16,5 @@ Starter repo for NeuraLabzAI — FastAPI service + AI agent + crypto hooks + soc
 ## Notes
 - Replace placeholders (crypto adapters, OAuth, OpenAI usage) before production.
 - Secure keys with GitHub Secrets / Vault for deployments.
+
+Follow us on X: https://x.com/NeuraLabz
